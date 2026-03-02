@@ -53,8 +53,9 @@ function TiltCard({
 export default function Projects() {
   const { t } = useLanguage()
   const [heroHover, setHeroHover] = useState(false)
-  const githubUrl = 'https://github.com/VitorPerraro/Denincore'
-  const deployUrl = 'https://denincore.vercel.app/'
+  // URLs for the highlighted project (projeto destaque)
+  const githubUrl = 'https://github.com/VitorPerraro/Denincore-godrive-backup'
+  const deployUrl = 'https://denincore-godrive-backup.vercel.app/'
 
   return (
     <section id="projects" className="relative px-4 py-24 md:px-8 lg:px-16">
